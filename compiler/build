@@ -177,7 +177,7 @@ export DISABLE_PKGS="jpl odbc xpce"
 
 # EXTRACFG+=" --link"
 # EXTRACFG+=" --enable-useprofile"
-# EXTRACFG+=" --disable-libdirversion"
+EXTRACFG+=" --disable-libdirversion"
 # EXTRACFG+=" --enable-shared"
 export EXTRACFG
 
