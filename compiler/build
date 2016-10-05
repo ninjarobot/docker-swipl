@@ -133,10 +133,10 @@ export CFLAGS="$COFLAGS $CMFLAGS $CIFLAGS"
 # export PKG=
 
 # [EDIT] Packages to skip.  Leaving it blank compiles all default packages.
-export DISABLE_PKGS="jpl odbc xpce"
+export DISABLE_PKGS="jpl xpce"
 
 # [EDIT] Packages to add.
-# export EXTRA_PKGS="db ltx2htm space"
+export EXTRA_PKGS="db space"
 
 # [EDIT] Where to find the jar for Junit 3.8.  Needed to test jpl
 # export JUNIT=/opt/local/share/java/junit.jar
