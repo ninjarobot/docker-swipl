@@ -14,8 +14,8 @@ distribute/swipl-binary.tgz: compiler/Dockerfile
 
 # build an image with SWI Prolog binary installed
 image: distribute/Dockerfile distribute/swipl-binary.tgz
-	docker build -t mndrix/swipl:latest distribute
+	docker build -t swipl/swipl:latest distribute
 
 # push changes to Docker's index
 push:
-	docker push mndrix/swipl:latest
+	docker push swipl/swipl:latest
